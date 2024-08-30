@@ -1,14 +1,8 @@
 package ru.yandex.praktikum.dto;
 
+import lombok.Data;
+
+@Data
 public class UserLogoutRequest {
-
     private String token;
-
-    public String getToken() {
-        return token;
-    }
-
-    public void setToken(String token) {
-        this.token = token;
-    }
 }

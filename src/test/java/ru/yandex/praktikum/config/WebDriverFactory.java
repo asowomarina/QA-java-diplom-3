@@ -9,7 +9,7 @@ public class WebDriverFactory {
     public static WebDriver getWebDriver() {
 
         String driver = System.getProperty("browser", "chrome");
-        String binaryYandexDriverFile = "C:\\Users\\Marina\\Downloads\\yandexdriver.exe";
+        String binaryYandexDriverFile = "drivers/yandexdriver.exe";
 
         switch (driver) {
             case "chrome":
